@@ -29,7 +29,7 @@ public abstract class BaseRecyclerView<T>  extends RecyclerView.Adapter<Recycler
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-         onBindData(holder,data.get(position));
+         onBindData(holder,data.get(position),position);
     }
 
     @Override
@@ -45,6 +45,6 @@ public abstract class BaseRecyclerView<T>  extends RecyclerView.Adapter<Recycler
 
     public abstract  void  defineInterpolator();
 
-    public abstract  void onBindData(RecyclerView.ViewHolder holder , T val);
+    public abstract  void onBindData(RecyclerView.ViewHolder holder , T val , int position);
 
 }
