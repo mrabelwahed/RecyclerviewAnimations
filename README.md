@@ -17,7 +17,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 
-	</p>
+	
 <br/>
 <b>Step2:</b>Add the dependency
 <p>
