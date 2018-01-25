@@ -3,7 +3,8 @@
 <br/>This is a library for some cool recyclerview animation
 <br/>
 <h1>features</h1>
-Google plus Animation like
+<ul><li>Google plus Animation like</li></ul>
+
 <br/><b>Installation</b>
 <p>
 <b>Step1:</b>
